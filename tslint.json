@@ -1,0 +1,28 @@
+{
+  "extends": ["tslint:recommended", "tslint-config-prettier"],
+  "linterOptions": {
+    "exclude": [
+      "node_modules/**/*.ts",
+    ]
+  },
+  "rules": {
+    "no-trailing-whitespace": true,
+    "quotemark": [true, "single", "jsx-double"],
+    "eofline": true,
+    "jsx-no-lambda": false,
+    "trailing-comma": [true, {"multiline": "never", "singleline": "never"}],
+    "semicolon": [true, "always", "ignore-interfaces"],
+    "whitespace": [true,
+      "check-branch",
+      "check-decl",
+      "check-operator",
+      "check-module",
+      "check-separator",
+      "check-rest-spread",
+      "check-type",
+      "check-typecast",
+      "check-type-operator",
+      "check-preblock"
+    ]
+  }
+}

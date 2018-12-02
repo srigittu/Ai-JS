@@ -1,0 +1,35 @@
+{
+  "name": "ai-js",
+  "version": "1.0.0",
+  "description": "Ai-Js is a backend server which generates rest api's using Entity Relation JSON",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srigittu/Ai-Js.git"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "ai-js": "ai.ts"
+  },
+  "keywords": [
+    "ai-js"
+  ],
+  "author": "Srikanth M",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/srigittu/Ai-Js/issues"
+  },
+  "homepage": "https://github.com/srigittu/Ai-Js#readme",
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/inquirer": "0.0.43",
+    "chalk": "^2.4.1",
+    "commander": "^2.19.0",
+    "inquirer": "^6.2.1",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.2.1"
+  }
+}
